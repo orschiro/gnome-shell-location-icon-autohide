@@ -66,7 +66,7 @@ const LocationIconAutohideExtension = new Lang.Class({
 
   _triggerToggleIconDisplay: function(proxy, sender) {
     if (this._locationSettings.get_boolean("enabled")) {
-      this._showLocationIcon();
+      this._hideLocationIcon();
     } else {
       this._hideLocationIcon();
     }
